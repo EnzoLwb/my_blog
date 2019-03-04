@@ -1,0 +1,32 @@
+---
+title: With Cover Post
+date: 2019-02-27 17:17:09
+tags: 
+    - 支付   
+    - Laravel
+category:
+    - 闲man儿
+thumbnail: /thumbnails/test_cover.png
+    
+---
+#### 支付宝支付
+0. composer yansongda/pay  laravel容器创建
+1. 沙盒测试 获取appid 获取rsa 私钥 公钥
+2. 编写路由测试
+3. 控制器方法 模板
+``` php
+// 调用支付宝的网页支付
+        return app('alipay')->web([
+            'out_trade_no' => $order->no, // 订单编号，需保证在商户端不重复
+            'total_amount' => $order->total_amount, // 订单金额，单位元，支持小数点后两位
+            'subject'      => '支付 Laravel Shop 的订单：'.$order->no, // 订单标题
+        ]);
+```
+4. 编写前端回调和服务器回调 (注：服务器回调本地是看不到的，可以使用[requestbin]( http://requestbin.leo108.com/))测试
+
+> 前端回调返回的数据包括：
+![image](https://iocaffcdn.phphub.org/uploads/images/201806/04/5320/LxgvOOptUG.png?imageView2/2/w/1240/h/0)
+服务器回调返回的数据包括：
+![image](https://iocaffcdn.phphub.org/uploads/images/201806/04/5320/zWrduTvrNx.png?imageView2/2/w/1240/h/0)
+
+5. 添加csrf 白名单 'payment/alipay/notify',  path:Middleware/VerifyCsrfToken.php
