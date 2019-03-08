@@ -63,7 +63,7 @@ export default new VueRouter({
 > php artisan serve
 
 #### 数据填充
-``` shell
+```bash
 $ php artisan make:model Post -m
 $ php artisan make:factory PostFactory --model=Post
 

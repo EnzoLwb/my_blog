@@ -7,7 +7,7 @@ tags:
 category:
     - 后台     
 ---
-### bbs.51tiki.com 就是使用flarum搭建的，再次感谢flarum开发社区
+>  bbs.51tiki.com 就是使用flarum搭建的，再次感谢flarum开发社区
 
 -   composer create-project flarum/flarum my_discuz dev-master
 -   虚拟主机配置文件 include 项目目录下的 .nginx.conf 并进行相关修改;
@@ -15,6 +15,7 @@ category:
 -   修改  my_discuz/vendor/flarum/core/migrations/2015_02_24_000000_create_posts_table.php
 -   注释 # $table->engine = 'MyISAM';
 -   访问主页 填写相关配置 点击 install 
+<!-- more -->
 -   安装中文汉化包 composer require csineneo/lang-simplified-chinese
 -   这个时候可以进入后台配置邮箱 （发件地址一定要填写自己的账号）
 -   进入后台扩展包 选择 对勾 简体中文语言包
