@@ -10,6 +10,7 @@ category:
 > FFmpeg的名称来自MPEG视频编码标准，前面的“FF”代表“Fast Forward”，FFmpeg是一套可以用来记录、转换数字音频、视频，并能将其转化为流的开源计算机程序。可以轻易地实现多种视频格式之间的相互转换。FFmpeg的用户有Google，Facebook，Youtube，优酷，爱奇艺，土豆
 
 1.  获取语音文件时长
+
 ```bash
  fmpeg -i {$audio_file_path/$url} 2>&1 | grep 'Duration' | cut -d ' ' -f 4 | sed s/,// cut -d ',' -f 1
 ```
@@ -29,6 +30,7 @@ category:
 ```
  <!-- more -->
 2. 将视频的第一帧图片作为视频封面
+
 ```bash
 ffmpeg -i  {$video_file_path/$url}  -y -f mjpeg -ss 1 -t 1 -s 700x400  {$video_cover_path} 
 ```
@@ -39,6 +41,7 @@ ffmpeg -i  {$video_file_path/$url}  -y -f mjpeg -ss 1 -t 1 -s 700x400  {$video_c
 >- -s    输出的分辨率 700x400
 
 3. 压缩视频文件  (压缩减小十倍都可以 不明显)
+
 ```bash
 ffmpeg -i Wildlife.wmv -b:v 800k -s 960x540 aabb.mp4
 ```
