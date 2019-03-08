@@ -11,12 +11,10 @@ category:
 
 1.  获取语音文件时长
 ```bash
- fmpeg -i {$audio_file_path/$url} 2>&1 | grep 'Duration' | cut -d ' ' -f 4 | sed s/,//
-cut -d ',' -f 1
+ fmpeg -i {$audio_file_path/$url} 2>&1 | grep 'Duration' | cut -d ' ' -f 4 | sed s/,// cut -d ',' -f 1
 ```
 
-
-```
+```bash
  Input #0, mp3, from 'spring.mp3':
   Metadata:
     genre           : Other
@@ -29,7 +27,7 @@ cut -d ',' -f 1
   Duration: 00:00:49.06, start: 0.025056, bitrate: 488 kb/s
   
 ```
- 
+ <!-- more -->
 2. 将视频的第一帧图片作为视频封面
 ```bash
 ffmpeg -i  {$video_file_path/$url}  -y -f mjpeg -ss 1 -t 1 -s 700x400  {$video_cover_path} 

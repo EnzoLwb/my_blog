@@ -8,6 +8,7 @@ category:
 
 ---
 > 一个进程需要每时每刻不断的跑，但是这个进程又有可能由于各种原因有可能中断。当进程中断的时候我希望能自动重新启动它，此时，我就需要使用到了Supervisor.
+
 - supervisor 安装 
 - 编写 laravel artisan command
 <!-- more -->

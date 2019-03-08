@@ -116,6 +116,5 @@ axios.post('/api/register',formData).then(response =>{
 - VUE文件命名规则 大写无符号如：RegisterForm
 - 组件引用时 应该有- 例如：register-form
 - @keydown="form.errors.clear($event.target.name)"，这个用于输入时清空input框地下的错误提示
-- 
 
 

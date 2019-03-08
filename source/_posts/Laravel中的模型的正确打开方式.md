@@ -8,6 +8,7 @@ category:
 thumbnail: https://iocaffcdn.phphub.org/uploads/images/201802/28/1/Jk8mC7SGI5.jpg!/both/800x600    
 ---
 > $casts 属性应是一个数组，且数组的键是那些需要被转换的字段名，值则是你希望转换的数据类型。支持转换的数据类型有： integer，json，float，double，string，boolean，object，array，collection，date，datetime 和 timestamp。
+
 ```php
 protected $casts = [
     'closed'    => 'boolean',
@@ -104,6 +105,7 @@ public function getImageUrlAttribute(){
 - 用户和收货地址 或者 文章和评论的关系 就是 一对多关系。使用belongsTo 和 hasMany
 - 用户和收藏商品 之间的关系就是多对多关系。使用belongsToMany(商品，‘中间关系表（收藏表）’)
 - 当更新关联时，可以使用 associate 方法。此方法会在子模型中设置外键：
+
 ```php
 // 创建一个新的购物车记录
 $item = new CartItem(['amount' => $amount]);
