@@ -1,14 +1,12 @@
 ---
-title: SPA 起步
+title: Vue 单页项目 笔记
 date: 2019-02-27 13:58:51
 tags: #可以有多个标签
     - Vue   
     - Laravel
 category:
-    - 后台 # 只能有一个分类
-    
-comment: on
-
+    - 前端
+thumbnail: https://cn.vuejs.org/images/logo.png
 ---
 
 ####  填充组件 <router-view> </router-view>
@@ -59,7 +57,9 @@ export default new VueRouter({
 ```
 
 > 安装模块： cnpm install [modulename] --save
+
 > npm run watch 
+
 > php artisan serve
 
 #### 数据填充
@@ -98,7 +98,7 @@ let routes = [
 
 ```
 
-#### axios
+#### axios 方法调用例子
 ```js
 axios.get('/api/posts/'+this.$route.params.id).then(response => {
                     this.post =  response.data;//对象格式时
@@ -119,11 +119,3 @@ axios.post('/api/register',formData).then(response =>{
 - 
 
 
-#### JWT passport 
-``` shell
-//5.5以下的laravel版本 安装 JWT方式
-$ composer require paragonie/random_compat=~2.0
-
-$ composer require laravel/passport=~4.0
-
-```

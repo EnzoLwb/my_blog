@@ -1,5 +1,5 @@
 ---
-title: With Cover Post
+title: 支付宝支付
 date: 2019-02-27 17:17:09
 tags: 
     - 支付   
@@ -9,7 +9,6 @@ category:
 thumbnail: /thumbnails/test_cover.png
     
 ---
-#### 支付宝支付
 0. composer yansongda/pay  laravel容器创建
 1. 沙盒测试 获取appid 获取rsa 私钥 公钥
 2. 编写路由测试
