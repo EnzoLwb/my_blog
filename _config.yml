@@ -35,7 +35,8 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
+imgroot: /  #如查有第三方图片存储添写，如果用本地用`/`
 relative_link: false
 future: true
 highlight:

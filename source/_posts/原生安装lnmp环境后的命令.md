@@ -6,7 +6,7 @@ tags:
     - lnmp
 category:
     - 服务端 
-thumbnail: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1552035234380&di=8c34c2b4602124ea3b396569f630125b&imgtype=0&src=http%3A%2F%2Fdn-linuxcn.qbox.me%2Fdata%2Fattachment%2Falbum%2F201611%2F22%2F214235y7ee099gwe97ieiy.png  
+thumbnail: /thumbnails/hyld1.jpg
 ---
 *因为之前使用的Linux系统都是安装的lnmp一键安装包或者docker下安装，所以对于原生安装lnmp环境的常用命令不是很熟悉，特此记录一下*
 

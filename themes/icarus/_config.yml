@@ -1,7 +1,7 @@
 # Version of the Icarus theme that is currently used
 version: 2.3.0
 # Path or URL to the website's icon
-favicon: 'http://blog.51tiki.com/thumbnails/code.png'
+favicon: '/thumbnails/code.png'
 # Path or URL to RSS atom.xml
 rss: 
 # Path or URL to the website's logo to be shown on the left of the navigation bar or footer  /images/logo.svg
@@ -72,12 +72,12 @@ donate:
         # Donation entry name
         type: alipay
         # Qrcode image URL
-        qrcode: 'https://blog.51tiki.com/thumbnails/ali.jpg'
+        qrcode: 'https://i.loli.net/2020/09/04/bwDxBLPhmSCMQHY.jpg'
     -
         # Donation entry name
         type: wechat
         # Qrcode image URL
-        qrcode: 'https://blog.51tiki.com/thumbnails/wx.jpg'
+        qrcode: 'https://i.loli.net/2020/09/04/aXMbI9SeGY7DVtu.jpg'
 
 
 # Share plugin settings
