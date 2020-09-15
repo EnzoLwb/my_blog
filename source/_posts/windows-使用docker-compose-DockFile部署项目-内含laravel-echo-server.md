@@ -18,6 +18,7 @@ tags:
 4. [supervisor 监控队列](#d4)
 5. [容器内的定时任务](#d5)
 6. [k8s 入门调试(下一篇文章吧)](#d5)
+ <!-- more -->
 #### <a href="#d1">1.Docker Desktop 的安装 以及配置</a> 
 就是官网下载安装，修改镜像源(Setting-Docker Engine-registry-mirrors,可以去DAOCloud找个源)。现在的desktop 更新的很智能了，不像之前还要手动添加允许file sharing，现在都随着挂载随着提示你允许，并且应该是自动安装好docker-compose,如果没有安装，就百度下安装方式吧。
 #### <a href="#d2">2.docker-compose.yml + dockerfile 文件说明</a> 
