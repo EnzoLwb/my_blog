@@ -41,7 +41,9 @@ footer:
         Repositories  on GitHub:
             icon: fab fa-github
             url: 'https://github.com/EnzoLwb'
-
+        Repositories  on Gitee:
+            icon: fab fa-gofore
+            url: 'https://gitee.com//enzolwb'
 # Article display settings
 article:
     # Code highlight theme：darkula atom-one-dark
@@ -113,7 +115,7 @@ widgets:
         # Author's current location to be shown in the profile widget
         location: 天津
         # https://iocaffcdn.phphub.org/uploads/avatars/11852_1501991955.png!/both/100x100
-        avatar: https://avatars2.githubusercontent.com/u/27133511
+        avatar: https://cdn.learnku.com/uploads/avatars/25478_1552028471.jpg!/both/300x300
         # Email address for the Gravatar to be shown in the profile widget
         gravatar: 
         # Whether to show avatar image rounded or square
@@ -142,8 +144,8 @@ widgets:
         # Links to be shown in the links widget
         links:
             Github: 'https://github.com/EnzoLwb'
-            Segmentfault: 'https://segmentfault.com/u/pangdingjiadeshuilong'
-            Laravel-china: 'https://learnku.com/blog/liwenbo'
+            Gitee: 'https://gitee.com/enzolwb'
+            Learnku: 'https://learnku.com/blog/liwenbo'
     -
         # Widget name
         type: category
