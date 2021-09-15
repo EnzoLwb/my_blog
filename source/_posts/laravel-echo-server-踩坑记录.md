@@ -2,6 +2,8 @@
 title: laravel-echo-server 踩坑记录
 date: 2020-09-15 14:03:19
 tags: laravel-echo-server
+category:
+    - 后端   
 ---
 > 除了https://learnku.com/laravel/t/13101/using-laravel-echo-server-to-build-real-time-applications 文章中的记录以外 （下面也有包含的， 如果再次出现证明就是我自己曾经犯的错误）
 

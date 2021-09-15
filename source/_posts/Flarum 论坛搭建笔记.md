@@ -4,8 +4,7 @@ date: 2019-03-03 17:29:49
 tags: 
     - flarum
     - 论坛
-category:
-    - 后台     
+  
 ---
 >  bbs.51tiki.com 就是使用flarum搭建的，再次感谢flarum开发社区
 

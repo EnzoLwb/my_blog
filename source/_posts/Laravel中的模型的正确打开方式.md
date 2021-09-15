@@ -4,7 +4,7 @@ date: 2019-02-27 17:29:52
 tags:   
     - Laravel
 category:
-    - 后台
+    - 后端
 thumbnail: /thumbnails/hyld2.png
 ---
 > $casts 属性应是一个数组，且数组的键是那些需要被转换的字段名，值则是你希望转换的数据类型。支持转换的数据类型有： integer，json，float，double，string，boolean，object，array，collection，date，datetime 和 timestamp。

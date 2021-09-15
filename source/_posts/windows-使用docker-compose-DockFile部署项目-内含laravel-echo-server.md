@@ -1,10 +1,13 @@
 ---
 title: windows 使用docker-compose+DockerFile部署项目(内含laravel-echo-server)
 date: 2020-09-15 14:03:28
+category:
+    - 服务端   
 tags: 
     - docker
     - laravel-echo-server
     - supervisor
+thumbnail: /thumbnails/lv1.png
 ---
 > 平时开发环境是windows下的集成环境，在一年前下载了Docker Desktop 想安装laradock 但是忘了什么原因了 失败了，最近闲来没事准备整一下本地的dockfile一键部署
 
