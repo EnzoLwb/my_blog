@@ -42,4 +42,4 @@ func (q *Queue) IsEmpty() bool  {
 
 3. 查看文档 **godoc** -http :6060 
 
-![image-20210913151428590](/enzolwb/thumbnails/godoc.png)
+![image-20210913151428590](/thumbnails/godoc.png)
